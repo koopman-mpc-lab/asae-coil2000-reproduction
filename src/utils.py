@@ -5,19 +5,20 @@ import random
 from pathlib import Path
 
 import numpy as np
-import torch
-import yaml
-
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_yaml(path: str | Path) -> dict:
+    import yaml
+
     with Path(path).open("r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
 def set_seed(seed: int) -> None:
+    import torch
+
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
@@ -25,7 +26,7 @@ def set_seed(seed: int) -> None:
         torch.cuda.manual_seed_all(seed)
 
 
-def count_params(model: torch.nn.Module) -> dict[str, int]:
+def count_params(model) -> dict[str, int]:
     trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
     frozen = sum(p.numel() for p in model.parameters() if not p.requires_grad)
     return {
@@ -35,7 +36,7 @@ def count_params(model: torch.nn.Module) -> dict[str, int]:
     }
 
 
-def param_line(model: torch.nn.Module) -> str:
+def param_line(model) -> str:
     c = count_params(model)
     return (
         f"Trainable {c['trainable']:,} | frozen_backbone_est {c['frozen_est']:,} "

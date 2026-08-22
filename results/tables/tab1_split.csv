@@ -1,0 +1,5 @@
+partition,n,n_pos,pos_pct,n_neg,neg_pct
+Training,6876,411,5.98,6465,94.02
+Validation,1473,88,5.97,1385,94.03
+Test,1473,87,5.91,1386,94.09
+Total,9822,586,5.97,9236,94.03

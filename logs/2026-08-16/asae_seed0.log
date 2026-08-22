@@ -1,0 +1,171 @@
+2026-08-16 08:47:11 INFO src.train: ASAE full
+2026-08-16 08:47:11 INFO src.train: seed=0  batch=256  smote=1:3  device=cuda:0 (RTX 3090)
+2026-08-16 08:47:11 INFO src.train: Trainable 48,311 | frozen_backbone_est 0 | total_est 48,311
+2026-08-16 08:47:11 WARNING src.train: SMOTE fitted on train partition only
+2026-08-16 08:47:31 train.py: epoch 001/161  train_loss=1.7753  val_loss=1.7860  val_auc=0.5814  lr=0.001000  grad=2.481  mem=1709MiB
+2026-08-16 08:47:44 INFO src.train: epoch 002/161  train_loss=1.7358  val_loss=1.7510  val_auc=0.5864  lr=0.001000  grad=2.324  mem=1702MiB
+2026-08-16 08:47:58 INFO src.train: epoch 003/161  train_loss=1.7124  val_loss=1.7398  val_auc=0.5959  lr=0.001000  grad=2.286  mem=1637MiB
+2026-08-16 08:48:13 INFO src.train: epoch 004/161  train_loss=1.6689  val_loss=1.6717  val_auc=0.6029  lr=0.000999  grad=2.228  mem=1704MiB
+2026-08-16 08:48:24 INFO src.train: epoch 005/161  train_loss=1.6586  val_loss=1.6515  val_auc=0.6163  lr=0.000999  grad=2.054  mem=1655MiB
+2026-08-16 08:48:36 train.py: epoch 006/161  train_loss=1.6343  val_loss=1.6420  val_auc=0.6131  lr=0.000998  grad=2.270  mem=1697MiB
+2026-08-16 08:48:49 INFO src.train: epoch 007/161  train_loss=1.5852  val_loss=1.6204  val_auc=0.6211  lr=0.000997  grad=2.208  mem=1732MiB
+2026-08-16 08:48:49 WARNING src.train: BatchNorm: more than 20% of batch in one class
+2026-08-16 08:49:03 INFO src.train: epoch 008/161  train_loss=1.5423  val_loss=1.6159  val_auc=0.6197  lr=0.000996  grad=2.035  mem=1640MiB
+2026-08-16 08:49:18 INFO src.train: epoch 009/161  train_loss=1.5359  val_loss=1.6181  val_auc=0.6312  lr=0.000994  grad=2.214  mem=1702MiB
+2026-08-16 08:49:29 INFO src.train: epoch 010/161  train_loss=1.5192  val_loss=1.6185  val_auc=0.6361  lr=0.000993  grad=2.089  mem=1676MiB
+2026-08-16 08:49:41 train.py: epoch 011/161  train_loss=1.5289  val_loss=1.6318  val_auc=0.6513  lr=0.000991  grad=2.089  mem=1679MiB
+2026-08-16 08:49:54 INFO src.train: epoch 012/161  train_loss=1.4881  val_loss=1.6105  val_auc=0.6448  lr=0.000989  grad=2.119  mem=1738MiB
+2026-08-16 08:50:08 INFO src.train: epoch 013/161  train_loss=1.4627  val_loss=1.5823  val_auc=0.6467  lr=0.000987  grad=2.023  mem=1699MiB
+2026-08-16 08:50:23 INFO src.train: epoch 014/161  train_loss=1.4583  val_loss=1.5769  val_auc=0.6640  lr=0.000985  grad=2.066  mem=1654MiB
+2026-08-16 08:50:34 INFO src.train: epoch 015/161  train_loss=1.4468  val_loss=1.5456  val_auc=0.6628  lr=0.000982  grad=2.069  mem=1724MiB
+2026-08-16 08:50:46 train.py: epoch 016/161  train_loss=1.4428  val_loss=1.5382  val_auc=0.6630  lr=0.000980  grad=1.993  mem=1746MiB
+2026-08-16 08:50:59 INFO src.train: epoch 017/161  train_loss=1.4221  val_loss=1.5568  val_auc=0.6756  lr=0.000977  grad=1.816  mem=1744MiB
+2026-08-16 08:51:13 INFO src.train: epoch 018/161  train_loss=1.4117  val_loss=1.5440  val_auc=0.6754  lr=0.000974  grad=1.924  mem=1711MiB
+2026-08-16 08:51:28 INFO src.train: epoch 019/161  train_loss=1.3739  val_loss=1.5366  val_auc=0.6817  lr=0.000971  grad=1.938  mem=1666MiB
+2026-08-16 08:51:39 INFO src.train: epoch 020/161  train_loss=1.3366  val_loss=1.5057  val_auc=0.6916  lr=0.000968  grad=1.884  mem=1711MiB
+2026-08-16 08:51:51 train.py: epoch 021/161  train_loss=1.3117  val_loss=1.5226  val_auc=0.6944  lr=0.000964  grad=1.907  mem=1711MiB
+2026-08-16 08:52:04 INFO src.train: epoch 022/161  train_loss=1.3043  val_loss=1.5486  val_auc=0.6957  lr=0.000961  grad=1.651  mem=1718MiB
+2026-08-16 08:52:18 INFO src.train: epoch 023/161  train_loss=1.3040  val_loss=1.5303  val_auc=0.6980  lr=0.000957  grad=1.784  mem=1672MiB
+2026-08-16 08:52:33 INFO src.train: epoch 024/161  train_loss=1.2425  val_loss=1.5190  val_auc=0.6997  lr=0.000953  grad=1.473  mem=1651MiB
+2026-08-16 08:52:44 INFO src.train: epoch 025/161  train_loss=1.2266  val_loss=1.5060  val_auc=0.6950  lr=0.000949  grad=1.803  mem=1652MiB
+2026-08-16 08:52:56 train.py: epoch 026/161  train_loss=1.2256  val_loss=1.4717  val_auc=0.7015  lr=0.000944  grad=1.787  mem=1688MiB
+2026-08-16 08:53:09 INFO src.train: epoch 027/161  train_loss=1.2005  val_loss=1.4740  val_auc=0.7151  lr=0.000940  grad=1.688  mem=1678MiB
+2026-08-16 08:53:23 INFO src.train: epoch 028/161  train_loss=1.1716  val_loss=1.4532  val_auc=0.7052  lr=0.000935  grad=1.770  mem=1681MiB
+2026-08-16 08:53:38 INFO src.train: epoch 029/161  train_loss=1.1673  val_loss=1.4572  val_auc=0.7176  lr=0.000931  grad=1.568  mem=1725MiB
+2026-08-16 08:53:49 INFO src.train: epoch 030/161  train_loss=1.1376  val_loss=1.4429  val_auc=0.7229  lr=0.000926  grad=1.547  mem=1734MiB
+2026-08-16 08:54:01 train.py: epoch 031/161  train_loss=1.1343  val_loss=1.4236  val_auc=0.7182  lr=0.000921  grad=1.645  mem=1647MiB
+2026-08-16 08:54:14 INFO src.train: epoch 032/161  train_loss=1.1181  val_loss=1.4285  val_auc=0.7179  lr=0.000915  grad=1.605  mem=1709MiB
+2026-08-16 08:54:28 INFO src.train: epoch 033/161  train_loss=1.0730  val_loss=1.4101  val_auc=0.7297  lr=0.000910  grad=1.562  mem=1632MiB
+2026-08-16 08:54:43 INFO src.train: epoch 034/161  train_loss=1.0425  val_loss=1.3784  val_auc=0.7336  lr=0.000905  grad=1.626  mem=1736MiB
+2026-08-16 08:54:54 INFO src.train: epoch 035/161  train_loss=1.0163  val_loss=1.3791  val_auc=0.7259  lr=0.000899  grad=1.481  mem=1650MiB
+2026-08-16 08:55:06 train.py: epoch 036/161  train_loss=1.0151  val_loss=1.3717  val_auc=0.7424  lr=0.000893  grad=1.415  mem=1644MiB
+2026-08-16 08:55:19 INFO src.train: epoch 037/161  train_loss=0.9771  val_loss=1.3731  val_auc=0.7405  lr=0.000887  grad=1.586  mem=1735MiB
+2026-08-16 08:55:33 INFO src.train: epoch 038/161  train_loss=0.9651  val_loss=1.3748  val_auc=0.7437  lr=0.000881  grad=1.454  mem=1677MiB
+2026-08-16 08:55:48 INFO src.train: epoch 039/161  train_loss=0.9462  val_loss=1.3722  val_auc=0.7428  lr=0.000875  grad=1.477  mem=1749MiB
+2026-08-16 08:55:59 INFO src.train: epoch 040/161  train_loss=0.9305  val_loss=1.3925  val_auc=0.7502  lr=0.000868  grad=1.523  mem=1645MiB
+2026-08-16 08:56:11 train.py: epoch 041/161  train_loss=0.9260  val_loss=1.3873  val_auc=0.7546  lr=0.000862  grad=1.453  mem=1725MiB
+2026-08-16 08:56:24 INFO src.train: epoch 042/161  train_loss=0.9094  val_loss=1.3709  val_auc=0.7662  lr=0.000855  grad=1.408  mem=1643MiB
+2026-08-16 08:56:38 INFO src.train: epoch 043/161  train_loss=0.9103  val_loss=1.3378  val_auc=0.7576  lr=0.000848  grad=1.296  mem=1670MiB
+2026-08-16 08:56:53 INFO src.train: epoch 044/161  train_loss=0.8917  val_loss=1.3488  val_auc=0.7604  lr=0.000842  grad=1.385  mem=1681MiB
+2026-08-16 08:57:04 INFO src.train: epoch 045/161  train_loss=0.8569  val_loss=1.3245  val_auc=0.7618  lr=0.000835  grad=1.319  mem=1733MiB
+2026-08-16 08:57:16 train.py: epoch 046/161  train_loss=0.8359  val_loss=1.3123  val_auc=0.7560  lr=0.000827  grad=1.191  mem=1718MiB
+2026-08-16 08:57:29 INFO src.train: epoch 047/161  train_loss=0.8083  val_loss=1.3216  val_auc=0.7767  lr=0.000820  grad=1.348  mem=1705MiB
+2026-08-16 08:57:29 WARNING src.train: BatchNorm: more than 20% of batch in one class
+2026-08-16 08:57:43 INFO src.train: epoch 048/161  train_loss=0.7852  val_loss=1.3009  val_auc=0.7660  lr=0.000813  grad=1.228  mem=1672MiB
+2026-08-16 08:57:58 INFO src.train: epoch 049/161  train_loss=0.7725  val_loss=1.2915  val_auc=0.7686  lr=0.000805  grad=1.301  mem=1749MiB
+2026-08-16 08:58:09 INFO src.train: epoch 050/161  train_loss=0.7581  val_loss=1.2947  val_auc=0.7810  lr=0.000798  grad=1.297  mem=1731MiB
+2026-08-16 08:58:21 train.py: epoch 051/161  train_loss=0.7594  val_loss=1.2553  val_auc=0.7740  lr=0.000790  grad=1.293  mem=1658MiB
+2026-08-16 08:58:34 INFO src.train: epoch 052/161  train_loss=0.7407  val_loss=1.2647  val_auc=0.7754  lr=0.000782  grad=1.116  mem=1737MiB
+2026-08-16 08:58:48 INFO src.train: epoch 053/161  train_loss=0.7025  val_loss=1.2549  val_auc=0.7803  lr=0.000774  grad=1.292  mem=1653MiB
+2026-08-16 08:59:03 INFO src.train: epoch 054/161  train_loss=0.6949  val_loss=1.2524  val_auc=0.7811  lr=0.000766  grad=1.354  mem=1658MiB
+2026-08-16 08:59:14 INFO src.train: epoch 055/161  train_loss=0.6909  val_loss=1.2369  val_auc=0.7843  lr=0.000758  grad=1.084  mem=1654MiB
+2026-08-16 08:59:26 train.py: epoch 056/161  train_loss=0.6778  val_loss=1.2675  val_auc=0.7840  lr=0.000750  grad=1.093  mem=1675MiB
+2026-08-16 08:59:39 INFO src.train: epoch 057/161  train_loss=0.6527  val_loss=1.2645  val_auc=0.7923  lr=0.000742  grad=1.181  mem=1679MiB
+2026-08-16 08:59:53 INFO src.train: epoch 058/161  train_loss=0.6457  val_loss=1.2580  val_auc=0.7911  lr=0.000733  grad=1.146  mem=1728MiB
+2026-08-16 09:00:08 INFO src.train: epoch 059/161  train_loss=0.6536  val_loss=1.2698  val_auc=0.7921  lr=0.000725  grad=1.157  mem=1635MiB
+2026-08-16 09:00:19 INFO src.train: epoch 060/161  train_loss=0.6720  val_loss=1.2404  val_auc=0.8009  lr=0.000716  grad=1.131  mem=1640MiB
+2026-08-16 09:00:31 train.py: epoch 061/161  train_loss=0.6567  val_loss=1.2281  val_auc=0.8022  lr=0.000708  grad=1.054  mem=1664MiB
+2026-08-16 09:00:44 INFO src.train: epoch 062/161  train_loss=0.6547  val_loss=1.2066  val_auc=0.7931  lr=0.000699  grad=0.980  mem=1637MiB
+2026-08-16 09:00:58 INFO src.train: epoch 063/161  train_loss=0.6447  val_loss=1.1790  val_auc=0.7957  lr=0.000690  grad=1.044  mem=1647MiB
+2026-08-16 09:01:13 INFO src.train: epoch 064/161  train_loss=0.6425  val_loss=1.1800  val_auc=0.7956  lr=0.000681  grad=0.987  mem=1659MiB
+2026-08-16 09:01:24 INFO src.train: epoch 065/161  train_loss=0.6392  val_loss=1.1718  val_auc=0.7962  lr=0.000673  grad=1.031  mem=1678MiB
+2026-08-16 09:01:36 train.py: epoch 066/161  train_loss=0.6121  val_loss=1.1992  val_auc=0.8019  lr=0.000664  grad=1.012  mem=1657MiB
+2026-08-16 09:01:49 INFO src.train: epoch 067/161  train_loss=0.6151  val_loss=1.1884  val_auc=0.8017  lr=0.000655  grad=1.150  mem=1684MiB
+2026-08-16 09:02:03 INFO src.train: epoch 068/161  train_loss=0.5848  val_loss=1.1651  val_auc=0.8080  lr=0.000645  grad=0.932  mem=1732MiB
+2026-08-16 09:02:18 INFO src.train: epoch 069/161  train_loss=0.5770  val_loss=1.1496  val_auc=0.8077  lr=0.000636  grad=1.072  mem=1718MiB
+2026-08-16 09:02:29 INFO src.train: epoch 070/161  train_loss=0.5558  val_loss=1.1580  val_auc=0.8069  lr=0.000627  grad=0.973  mem=1644MiB
+2026-08-16 09:02:41 train.py: epoch 071/161  train_loss=0.5554  val_loss=1.1459  val_auc=0.8097  lr=0.000618  grad=1.027  mem=1704MiB
+2026-08-16 09:02:54 INFO src.train: epoch 072/161  train_loss=0.5577  val_loss=1.0854  val_auc=0.8098  lr=0.000609  grad=0.986  mem=1739MiB
+2026-08-16 09:03:08 INFO src.train: epoch 073/161  train_loss=0.5409  val_loss=1.0619  val_auc=0.8066  lr=0.000599  grad=0.973  mem=1725MiB
+2026-08-16 09:03:23 INFO src.train: epoch 074/161  train_loss=0.5500  val_loss=1.0603  val_auc=0.8099  lr=0.000590  grad=0.982  mem=1706MiB
+2026-08-16 09:03:34 INFO src.train: epoch 075/161  train_loss=0.5299  val_loss=1.0407  val_auc=0.8156  lr=0.000581  grad=0.943  mem=1749MiB
+2026-08-16 09:03:46 train.py: epoch 076/161  train_loss=0.5033  val_loss=1.0622  val_auc=0.8191  lr=0.000571  grad=0.977  mem=1675MiB
+2026-08-16 09:03:59 INFO src.train: epoch 077/161  train_loss=0.4875  val_loss=1.0445  val_auc=0.8182  lr=0.000562  grad=1.017  mem=1659MiB
+2026-08-16 09:04:13 INFO src.train: epoch 078/161  train_loss=0.4855  val_loss=1.0618  val_auc=0.8161  lr=0.000552  grad=1.008  mem=1640MiB
+2026-08-16 09:04:28 INFO src.train: epoch 079/161  train_loss=0.4793  val_loss=1.0474  val_auc=0.8154  lr=0.000543  grad=0.971  mem=1658MiB
+2026-08-16 09:04:39 INFO src.train: epoch 080/161  train_loss=0.4840  val_loss=1.0526  val_auc=0.8220  lr=0.000533  grad=0.848  mem=1729MiB
+2026-08-16 09:04:51 train.py: epoch 081/161  train_loss=0.4591  val_loss=1.0313  val_auc=0.8208  lr=0.000524  grad=0.898  mem=1689MiB
+2026-08-16 09:05:04 INFO src.train: epoch 082/161  train_loss=0.4474  val_loss=1.0309  val_auc=0.8216  lr=0.000514  grad=0.748  mem=1657MiB
+2026-08-16 09:05:18 INFO src.train: epoch 083/161  train_loss=0.4415  val_loss=1.0332  val_auc=0.8200  lr=0.000505  grad=0.882  mem=1744MiB
+2026-08-16 09:05:33 INFO src.train: epoch 084/161  train_loss=0.4485  val_loss=1.0300  val_auc=0.8262  lr=0.000495  grad=0.598  mem=1646MiB
+2026-08-16 09:05:44 INFO src.train: epoch 085/161  train_loss=0.4345  val_loss=1.0379  val_auc=0.8289  lr=0.000486  grad=0.794  mem=1728MiB
+2026-08-16 09:05:56 train.py: epoch 086/161  train_loss=0.4367  val_loss=1.0171  val_auc=0.8224  lr=0.000476  grad=0.877  mem=1736MiB
+2026-08-16 09:06:09 INFO src.train: epoch 087/161  train_loss=0.4184  val_loss=1.0116  val_auc=0.8245  lr=0.000467  grad=0.871  mem=1682MiB
+2026-08-16 09:06:09 WARNING src.train: BatchNorm: more than 20% of batch in one class
+2026-08-16 09:06:23 INFO src.train: epoch 088/161  train_loss=0.3854  val_loss=0.9978  val_auc=0.8258  lr=0.000457  grad=0.891  mem=1711MiB
+2026-08-16 09:06:38 INFO src.train: epoch 089/161  train_loss=0.4135  val_loss=0.9715  val_auc=0.8271  lr=0.000448  grad=0.724  mem=1735MiB
+2026-08-16 09:06:49 INFO src.train: epoch 090/161  train_loss=0.4121  val_loss=0.9586  val_auc=0.8350  lr=0.000438  grad=0.700  mem=1743MiB
+2026-08-16 09:07:01 train.py: epoch 091/161  train_loss=0.4025  val_loss=0.9555  val_auc=0.8268  lr=0.000429  grad=0.675  mem=1741MiB
+2026-08-16 09:07:14 INFO src.train: epoch 092/161  train_loss=0.4137  val_loss=0.9702  val_auc=0.8317  lr=0.000419  grad=0.798  mem=1636MiB
+2026-08-16 09:07:28 INFO src.train: epoch 093/161  train_loss=0.3831  val_loss=0.9685  val_auc=0.8294  lr=0.000410  grad=0.830  mem=1658MiB
+2026-08-16 09:07:43 INFO src.train: epoch 094/161  train_loss=0.3829  val_loss=0.9548  val_auc=0.8380  lr=0.000401  grad=0.745  mem=1656MiB
+2026-08-16 09:07:54 INFO src.train: epoch 095/161  train_loss=0.3546  val_loss=0.9457  val_auc=0.8301  lr=0.000391  grad=0.810  mem=1711MiB
+2026-08-16 09:08:06 train.py: epoch 096/161  train_loss=0.3256  val_loss=0.9514  val_auc=0.8348  lr=0.000382  grad=0.713  mem=1724MiB
+2026-08-16 09:08:19 INFO src.train: epoch 097/161  train_loss=0.3148  val_loss=0.9300  val_auc=0.8296  lr=0.000373  grad=0.696  mem=1637MiB
+2026-08-16 09:08:33 INFO src.train: epoch 098/161  train_loss=0.3200  val_loss=0.9202  val_auc=0.8360  lr=0.000364  grad=0.575  mem=1664MiB
+2026-08-16 09:08:48 INFO src.train: epoch 099/161  train_loss=0.3172  val_loss=0.8992  val_auc=0.8324  lr=0.000355  grad=0.740  mem=1675MiB
+2026-08-16 09:08:59 INFO src.train: epoch 100/161  train_loss=0.3183  val_loss=0.8812  val_auc=0.8440  lr=0.000345  grad=0.664  mem=1723MiB
+2026-08-16 09:09:11 train.py: epoch 101/161  train_loss=0.3129  val_loss=0.8479  val_auc=0.8377  lr=0.000336  grad=0.718  mem=1684MiB
+2026-08-16 09:09:24 INFO src.train: epoch 102/161  train_loss=0.3113  val_loss=0.8530  val_auc=0.8431  lr=0.000327  grad=0.531  mem=1638MiB
+2026-08-16 09:09:38 INFO src.train: epoch 103/161  train_loss=0.3289  val_loss=0.8507  val_auc=0.8420  lr=0.000319  grad=0.713  mem=1703MiB
+2026-08-16 09:09:53 INFO src.train: epoch 104/161  train_loss=0.3192  val_loss=0.8309  val_auc=0.8527  lr=0.000310  grad=0.792  mem=1664MiB
+2026-08-16 09:10:04 INFO src.train: epoch 105/161  train_loss=0.3368  val_loss=0.8443  val_auc=0.8368  lr=0.000301  grad=0.645  mem=1696MiB
+2026-08-16 09:10:16 train.py: epoch 106/161  train_loss=0.3347  val_loss=0.8276  val_auc=0.8385  lr=0.000292  grad=0.517  mem=1635MiB
+2026-08-16 09:10:29 INFO src.train: epoch 107/161  train_loss=0.3262  val_loss=0.8261  val_auc=0.8454  lr=0.000284  grad=0.723  mem=1642MiB
+2026-08-16 09:10:43 INFO src.train: epoch 108/161  train_loss=0.3314  val_loss=0.8183  val_auc=0.8515  lr=0.000275  grad=0.671  mem=1659MiB
+2026-08-16 09:10:58 INFO src.train: epoch 109/161  train_loss=0.3207  val_loss=0.7780  val_auc=0.8474  lr=0.000267  grad=0.638  mem=1637MiB
+2026-08-16 09:11:09 INFO src.train: epoch 110/161  train_loss=0.3102  val_loss=0.7553  val_auc=0.8449  lr=0.000258  grad=0.716  mem=1676MiB
+2026-08-16 09:11:21 train.py: epoch 111/161  train_loss=0.2802  val_loss=0.7614  val_auc=0.8461  lr=0.000250  grad=0.730  mem=1706MiB
+2026-08-16 09:11:34 INFO src.train: epoch 112/161  train_loss=0.2665  val_loss=0.7367  val_auc=0.8498  lr=0.000242  grad=0.659  mem=1685MiB
+2026-08-16 09:11:48 INFO src.train: epoch 113/161  train_loss=0.2600  val_loss=0.7004  val_auc=0.8469  lr=0.000234  grad=0.367  mem=1727MiB
+2026-08-16 09:12:03 INFO src.train: epoch 114/161  train_loss=0.2600  val_loss=0.6924  val_auc=0.8476  lr=0.000226  grad=0.500  mem=1729MiB
+2026-08-16 09:12:14 INFO src.train: epoch 115/161  train_loss=0.2600  val_loss=0.7136  val_auc=0.8433  lr=0.000218  grad=0.721  mem=1704MiB
+2026-08-16 09:12:26 train.py: epoch 116/161  train_loss=0.2600  val_loss=0.6937  val_auc=0.8471  lr=0.000210  grad=0.705  mem=1746MiB
+2026-08-16 09:12:39 INFO src.train: epoch 117/161  train_loss=0.2600  val_loss=0.7290  val_auc=0.8463  lr=0.000202  grad=0.374  mem=1659MiB
+2026-08-16 09:12:53 INFO src.train: epoch 118/161  train_loss=0.2626  val_loss=0.7255  val_auc=0.8491  lr=0.000195  grad=0.706  mem=1725MiB
+2026-08-16 09:13:08 INFO src.train: epoch 119/161  train_loss=0.2600  val_loss=0.7051  val_auc=0.8503  lr=0.000187  grad=0.624  mem=1673MiB
+2026-08-16 09:13:19 INFO src.train: epoch 120/161  train_loss=0.2600  val_loss=0.7080  val_auc=0.8500  lr=0.000180  grad=0.570  mem=1674MiB
+2026-08-16 09:13:31 train.py: epoch 121/161  train_loss=0.2600  val_loss=0.7066  val_auc=0.8415  lr=0.000173  grad=0.420  mem=1740MiB
+2026-08-16 09:13:44 INFO src.train: epoch 122/161  train_loss=0.2610  val_loss=0.7059  val_auc=0.8558  lr=0.000165  grad=0.484  mem=1668MiB
+2026-08-16 09:13:58 INFO src.train: epoch 123/161  train_loss=0.2600  val_loss=0.6848  val_auc=0.8484  lr=0.000158  grad=0.521  mem=1672MiB
+2026-08-16 09:14:13 INFO src.train: epoch 124/161  train_loss=0.2694  val_loss=0.6421  val_auc=0.8493  lr=0.000152  grad=0.632  mem=1738MiB
+2026-08-16 09:14:24 INFO src.train: epoch 125/161  train_loss=0.2600  val_loss=0.6643  val_auc=0.8466  lr=0.000145  grad=0.619  mem=1637MiB
+2026-08-16 09:14:36 train.py: epoch 126/161  train_loss=0.2600  val_loss=0.6724  val_auc=0.8627  lr=0.000138  grad=0.621  mem=1689MiB
+2026-08-16 09:14:49 INFO src.train: epoch 127/161  train_loss=0.2705  val_loss=0.6648  val_auc=0.8548  lr=0.000132  grad=0.513  mem=1749MiB
+2026-08-16 09:14:49 WARNING src.train: BatchNorm: more than 20% of batch in one class
+2026-08-16 09:15:03 INFO src.train: epoch 128/161  train_loss=0.2782  val_loss=0.6566  val_auc=0.8596  lr=0.000125  grad=0.420  mem=1634MiB
+2026-08-16 09:15:18 INFO src.train: epoch 129/161  train_loss=0.2600  val_loss=0.6394  val_auc=0.8485  lr=0.000119  grad=0.457  mem=1675MiB
+2026-08-16 09:15:29 INFO src.train: epoch 130/161  train_loss=0.2600  val_loss=0.6321  val_auc=0.8635  lr=0.000113  grad=0.516  mem=1690MiB
+2026-08-16 09:15:41 train.py: epoch 131/161  train_loss=0.2600  val_loss=0.6087  val_auc=0.8562  lr=0.000107  grad=0.518  mem=1716MiB
+2026-08-16 09:15:54 INFO src.train: epoch 132/161  train_loss=0.2708  val_loss=0.6228  val_auc=0.8553  lr=0.000101  grad=0.509  mem=1638MiB
+2026-08-16 09:16:08 INFO src.train: epoch 133/161  train_loss=0.2906  val_loss=0.6324  val_auc=0.8607  lr=0.000095  grad=0.362  mem=1707MiB
+2026-08-16 09:16:23 INFO src.train: epoch 134/161  train_loss=0.2848  val_loss=0.6563  val_auc=0.8522  lr=0.000090  grad=0.546  mem=1668MiB
+2026-08-16 09:16:34 INFO src.train: epoch 135/161  train_loss=0.2627  val_loss=0.6369  val_auc=0.8589  lr=0.000085  grad=0.429  mem=1720MiB
+2026-08-16 09:16:46 train.py: epoch 136/161  train_loss=0.2654  val_loss=0.6320  val_auc=0.8513  lr=0.000079  grad=0.482  mem=1681MiB
+2026-08-16 09:16:59 INFO src.train: epoch 137/161  train_loss=0.2969  val_loss=0.6381  val_auc=0.8569  lr=0.000074  grad=0.479  mem=1722MiB
+2026-08-16 09:17:13 INFO src.train: epoch 138/161  train_loss=0.3220  val_loss=0.6383  val_auc=0.8665  lr=0.000069  grad=0.497  mem=1643MiB
+2026-08-16 09:17:28 INFO src.train: epoch 139/161  train_loss=0.3194  val_loss=0.6389  val_auc=0.8546  lr=0.000065  grad=0.353  mem=1652MiB
+2026-08-16 09:17:39 INFO src.train: epoch 140/161  train_loss=0.2968  val_loss=0.6204  val_auc=0.8550  lr=0.000060  grad=0.470  mem=1670MiB
+2026-08-16 09:17:39 INFO src.train: new best val_auc=0.8680 -> checkpoints/.../best.pt
+2026-08-16 09:17:51 train.py: epoch 141/161  train_loss=0.2857  val_loss=0.6144  val_auc=0.8530  lr=0.000056  grad=0.514  mem=1670MiB
+2026-08-16 09:18:04 INFO src.train: epoch 142/161  train_loss=0.2879  val_loss=0.6261  val_auc=0.8531  lr=0.000051  grad=0.497  mem=1705MiB
+2026-08-16 09:18:18 INFO src.train: epoch 143/161  train_loss=0.2628  val_loss=0.6306  val_auc=0.8545  lr=0.000047  grad=0.461  mem=1640MiB
+2026-08-16 09:18:33 INFO src.train: epoch 144/161  train_loss=0.2725  val_loss=0.6164  val_auc=0.8630  lr=0.000043  grad=0.338  mem=1719MiB
+2026-08-16 09:18:44 INFO src.train: epoch 145/161  train_loss=0.2639  val_loss=0.6130  val_auc=0.8552  lr=0.000039  grad=0.281  mem=1705MiB
+2026-08-16 09:18:56 train.py: epoch 146/161  train_loss=0.2806  val_loss=0.6056  val_auc=0.8532  lr=0.000036  grad=0.363  mem=1717MiB
+2026-08-16 09:19:09 INFO src.train: epoch 147/161  train_loss=0.2887  val_loss=0.6077  val_auc=0.8527  lr=0.000032  grad=0.395  mem=1737MiB
+2026-08-16 09:19:23 INFO src.train: epoch 148/161  train_loss=0.2994  val_loss=0.6082  val_auc=0.8523  lr=0.000029  grad=0.303  mem=1687MiB
+2026-08-16 09:19:38 INFO src.train: epoch 149/161  train_loss=0.2676  val_loss=0.5885  val_auc=0.8560  lr=0.000026  grad=0.464  mem=1637MiB
+2026-08-16 09:19:49 INFO src.train: epoch 150/161  train_loss=0.2738  val_loss=0.5843  val_auc=0.8536  lr=0.000023  grad=0.435  mem=1653MiB
+2026-08-16 09:20:01 train.py: epoch 151/161  train_loss=0.2781  val_loss=0.5412  val_auc=0.8577  lr=0.000020  grad=0.363  mem=1639MiB
+2026-08-16 09:20:14 INFO src.train: epoch 152/161  train_loss=0.2639  val_loss=0.5078  val_auc=0.8510  lr=0.000018  grad=0.306  mem=1685MiB
+2026-08-16 09:20:28 INFO src.train: epoch 153/161  train_loss=0.2600  val_loss=0.4762  val_auc=0.8464  lr=0.000015  grad=0.397  mem=1630MiB
+2026-08-16 09:20:43 INFO src.train: epoch 154/161  train_loss=0.2663  val_loss=0.4644  val_auc=0.8528  lr=0.000013  grad=0.200  mem=1691MiB
+2026-08-16 09:20:54 INFO src.train: epoch 155/161  train_loss=0.2600  val_loss=0.4858  val_auc=0.8516  lr=0.000011  grad=0.387  mem=1669MiB
+2026-08-16 09:21:06 train.py: epoch 156/161  train_loss=0.2600  val_loss=0.5164  val_auc=0.8540  lr=0.000009  grad=0.261  mem=1679MiB
+2026-08-16 09:21:19 INFO src.train: epoch 157/161  train_loss=0.2790  val_loss=0.5220  val_auc=0.8545  lr=0.000007  grad=0.360  mem=1690MiB
+2026-08-16 09:21:33 INFO src.train: epoch 158/161  train_loss=0.2742  val_loss=0.5117  val_auc=0.8492  lr=0.000006  grad=0.409  mem=1735MiB
+2026-08-16 09:21:48 INFO src.train: epoch 159/161  train_loss=0.2746  val_loss=0.5170  val_auc=0.8581  lr=0.000004  grad=0.228  mem=1646MiB
+2026-08-16 09:21:59 INFO src.train: epoch 160/161  train_loss=0.2600  val_loss=0.4914  val_auc=0.8586  lr=0.000003  grad=0.300  mem=1711MiB
+2026-08-16 09:22:11 train.py: epoch 161/161  train_loss=0.2642  val_loss=0.4775  val_auc=0.8541  lr=0.000002  grad=0.234  mem=1641MiB
+2026-08-16 09:22:11 INFO src.train: patience=20; continuing for loss monitoring, will restore epoch 140

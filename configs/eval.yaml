@@ -1,0 +1,5 @@
+split: test
+batch_size: 64
+pace_sec: 0.5
+ckpt: checkpoints/asae_seed2/best.pt
+threshold_source: checkpoints/asae_seed2/metrics.json

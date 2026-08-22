@@ -1,0 +1,8 @@
+model,selected
+LR,C=0.84 (log 1e-3–1e2)
+SVM,"C=3.7, gamma=0.012"
+RF,"max_depth=14, min_leaf=6, max_features=0.46"
+XGBoost,"lr=0.041, depth=5, trees=420, subsample=0.82"
+LightGBM,"lr=0.037, depth=6, trees=380"
+MLP / AE family,see configs/baselines.yaml
+TabNet,"n_d=n_a=24, steps=5, gamma=1.3, lr=0.012"

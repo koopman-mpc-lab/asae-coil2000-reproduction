@@ -1,0 +1,6 @@
+2026-08-09 09:41:03 INFO  optuna 50 trials, maximise val AUC
+see results/tuning/search_summary.csv
+LR    best C=0.84  val_auc=0.7284  (trial 11)
+SVM   best C=3.7 gamma=0.012  val_auc=0.7511  (trial 27)
+RF    depth=14 leaf=6 max_feat=0.46  val_auc=0.7882  (trial 44)
+sklearn estimators: no epoch loss

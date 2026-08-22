@@ -1,4 +1,4 @@
-"""Recompute Tables 3–6 from archived per-seed prediction files."""
+"""Recompute Tables 3–7 from archived per-seed prediction files."""
 from __future__ import annotations
 
 import sys
@@ -39,9 +39,8 @@ def _mean_sd(paths):
     return out, rows
 
 
-def main():
-    pred_dir = ROOT / "results" / "predictions" / "main"
-    table = pd.read_csv(ROOT / "results" / "tables" / "tab3_main.csv")
+def _check_family(pred_dir, table_path, label) -> bool:
+    table = pd.read_csv(table_path)
     ok = True
     for model in MAIN_MODELS:
         paths = [pred_dir / f"{model}_seed{s}.csv" for s in range(5)]
@@ -61,7 +60,21 @@ def main():
             mark = "ok" if err < tol else "DIFF"
             if err >= tol:
                 ok = False
-            print(f"{model:10s} {col:10s} pub={published:.4f} rec={recomputed:.4f} {mark}")
+            print(f"[{label}] {model:10s} {col:10s} pub={published:.4f} rec={recomputed:.4f} {mark}")
+    return ok
+
+
+def main():
+    ok = _check_family(
+        ROOT / "results" / "predictions" / "main",
+        ROOT / "results" / "tables" / "tab3_main.csv",
+        "main",
+    )
+    mixed_table = ROOT / "results" / "tables" / "tab7_mixedtype.csv"
+    if mixed_table.exists():
+        ok = _check_family(
+            ROOT / "results" / "predictions" / "mixedtype", mixed_table, "mixedtype"
+        ) and ok
     print("PASS" if ok else "FAIL")
     raise SystemExit(0 if ok else 1)
 

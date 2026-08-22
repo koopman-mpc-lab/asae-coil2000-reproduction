@@ -29,6 +29,8 @@ def main():
     _run("MLP", MLPClassifier(), x)
     _run("SAE", SymmetricAE(), x)
     _run("TabNetLite", TabNetLite(), x)
+    # type-consistent representation: 83 numeric + 40/10 one-hot blocks
+    _run("ASAE-133d", ASAE(d_in=133), torch.randn(8, 133))
     print("smoke_forward ok")
 
 

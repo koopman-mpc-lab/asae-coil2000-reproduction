@@ -5,3 +5,4 @@ torch>=2.1
 matplotlib>=3.7
 pyyaml>=6.0
 scipy>=1.10
+imbalanced-learn>=0.11

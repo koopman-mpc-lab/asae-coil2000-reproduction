@@ -32,7 +32,16 @@ def _scores(model, loader, device):
 def train_one(cfg: dict, smoke: bool = False) -> dict:
     set_seed(int(cfg.get("seed", 0)))
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    features = ROOT / "data" / "features" / str(cfg.get("features", "x_std.npz"))
+    mixed_layout = None
+    if bool(cfg.get("mixed_recon", False)):
+        from .data.mixed import load_mixed_layout
+
+        mixed_layout = load_mixed_layout(features)
+
     model = ASAE(
+        d_in=int(cfg.get("d_in", 85)),
         d_z=int(cfg.get("d_z", 32)),
         dropout=float(cfg.get("dropout", 0.3)),
         use_attention=bool(cfg.get("use_attention", True)),
@@ -42,8 +51,8 @@ def train_one(cfg: dict, smoke: bool = False) -> dict:
     ).to(device)
     print(param_line(model), flush=True)
 
-    train_ds = CoilDataset("train")
-    val_ds = CoilDataset("val")
+    train_ds = CoilDataset("train", features_path=features)
+    val_ds = CoilDataset("val", features_path=features)
     bs = 32 if smoke else int(cfg.get("batch_size", 256))
     train_loader = DataLoader(train_ds, batch_size=bs, shuffle=True, collate_fn=collate_records)
     val_loader = DataLoader(val_ds, batch_size=bs, shuffle=False, collate_fn=collate_records)
@@ -80,6 +89,7 @@ def train_one(cfg: dict, smoke: bool = False) -> dict:
                 alpha=float(cfg.get("alpha", 0.5)),
                 beta=float(cfg.get("beta", 1e-2)),
                 use_ent=bool(cfg.get("use_ent", True)),
+                mixed_layout=mixed_layout,
             )
             opt.zero_grad()
             loss.backward()
@@ -105,7 +115,9 @@ def train_one(cfg: dict, smoke: bool = False) -> dict:
     if best_state is not None:
         model.load_state_dict(best_state)
     thr = best_f1_threshold(yv, pv)
-    test_loader = DataLoader(CoilDataset("test"), batch_size=bs, shuffle=False, collate_fn=collate_records)
+    test_loader = DataLoader(
+        CoilDataset("test", features_path=features), batch_size=bs, shuffle=False, collate_fn=collate_records
+    )
     yt, pt, ids = _scores(model, test_loader, device)
     metrics = binary_metrics(yt, pt, thr)
     metrics.update({"best_epoch": best_epoch, "best_val_auc": best_auc, "seconds": time.time() - t0})

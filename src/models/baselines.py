@@ -65,8 +65,11 @@ class SymmetricAE(nn.Module):
         mu = self.to_z(h2)
         if self.variational:
             logvar = self.to_logvar(h2)
-            std = torch.exp(0.5 * logvar)
-            z = mu + std * torch.randn_like(std)
+            if self.training:
+                std = torch.exp(0.5 * logvar)
+                z = mu + std * torch.randn_like(std)
+            else:
+                z = mu
             return z, mu, logvar
         return mu, mu, None
 
@@ -81,8 +84,13 @@ class SymmetricAE(nn.Module):
         return logits
 
 
-class TabNetLite(nn.Module):
-    """Small sequential-attention tabular net used for the TabNet baseline."""
+class InternalSequentialAttentionFallback(nn.Module):
+    """Small internal attention network for dependency-free smoke checks.
+
+    This is not a TabNet implementation and is not selected by the baseline
+    training pipeline.  Reported TabNet runs use
+    ``pytorch_tabnet.tab_model.TabNetClassifier``.
+    """
 
     def __init__(self, d_in: int = 85, n_d: int = 24, n_steps: int = 5, gamma: float = 1.3):
         super().__init__()

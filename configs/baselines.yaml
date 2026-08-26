@@ -2,6 +2,15 @@ seeds: [0, 1, 2, 3, 4]
 split_seeds: [10, 11, 12, 13, 14]
 optuna_trials: 50
 criterion: val_auc
+batch_size: 256
+baseline_epochs: 200
+baseline_patience: 25
+tune_epochs: 60
+tune_patience: 12
+min_lr: 0.000001
+smote_ratio: 0.333333
+tabnet_batch_size: 1024
+tabnet_virtual_batch_size: 128
 library:
   sklearn: "1.3.2"
   xgboost: "2.0.3"

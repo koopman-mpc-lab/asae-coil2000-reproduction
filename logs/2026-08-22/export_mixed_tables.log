@@ -1,3 +1,0 @@
-2026-08-22 18:03:19 INFO  recompute tab7 from results/predictions/mixedtype/*_seed*.csv
-2026-08-22 18:03:21 INFO  y_true identity check: 13 models x 5 seeds share y_true_test.csv
-2026-08-22 18:03:24 INFO  check_table_consistency: PASS (main + mixedtype)

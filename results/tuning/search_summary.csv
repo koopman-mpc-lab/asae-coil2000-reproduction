@@ -1,0 +1,51 @@
+trial,model,params,val_auc,state
+0,LR,C=8.652,0.7213,COMPLETE
+1,LR,C=73.66,0.7046,COMPLETE
+2,LR,C=0.002114,0.7136,COMPLETE
+3,LR,C=0.02137,0.7256,COMPLETE
+4,LR,C=0.04388,0.6615,PRUNED
+5,LR,C=83.73,0.7142,COMPLETE
+6,LR,C=0.00119,0.7148,COMPLETE
+7,LR,C=0.0739,0.6778,PRUNED
+8,LR,C=0.0151,0.7049,COMPLETE
+9,LR,C=0.04554,0.7196,COMPLETE
+10,LR,C=7.981,0.7015,COMPLETE
+11,LR,C=0.84,0.7284,COMPLETE
+12,LR,C=0.007663,0.7151,COMPLETE
+13,LR,C=0.1809,0.723,COMPLETE
+14,LR,C=0.001042,0.7124,COMPLETE
+15,LR,C=0.056,0.7112,COMPLETE
+16,LR,C=10.57,0.7103,COMPLETE
+17,LR,C=0.009012,0.7096,COMPLETE
+18,SVM,"C=1.63, gamma=0.009969",0.7279,COMPLETE
+19,SVM,"C=0.619, gamma=0.00284",0.7443,COMPLETE
+20,SVM,"C=0.0124, gamma=0.002503",0.736,COMPLETE
+21,SVM,"C=11.2, gamma=0.006987",0.7346,COMPLETE
+22,SVM,"C=11, gamma=0.00751",0.6968,PRUNED
+23,SVM,"C=4.49, gamma=0.001426",0.7215,COMPLETE
+24,SVM,"C=0.0216, gamma=0.02336",0.7302,COMPLETE
+25,SVM,"C=0.019, gamma=0.002361",0.7339,COMPLETE
+26,SVM,"C=0.0167, gamma=0.09313",0.7369,COMPLETE
+27,SVM,"C=3.7, gamma=0.012",0.7511,COMPLETE
+28,SVM,"C=0.118, gamma=0.001314",0.7288,COMPLETE
+29,SVM,"C=0.0383, gamma=0.08054",0.7449,COMPLETE
+30,SVM,"C=18.4, gamma=0.001859",0.73,COMPLETE
+31,SVM,"C=3.9, gamma=0.001433",0.7257,COMPLETE
+32,SVM,"C=9.19, gamma=0.009292",0.6973,PRUNED
+33,SVM,"C=0.0549, gamma=0.01658",0.6843,PRUNED
+34,RF,"max_depth=15, min_leaf=3, max_features=0.59",0.7828,COMPLETE
+35,RF,"max_depth=7, min_leaf=3, max_features=0.62",0.7287,PRUNED
+36,RF,"max_depth=15, min_leaf=4, max_features=0.25",0.7583,COMPLETE
+37,RF,"max_depth=14, min_leaf=5, max_features=0.23",0.7607,COMPLETE
+38,RF,"max_depth=8, min_leaf=3, max_features=0.30",0.7737,COMPLETE
+39,RF,"max_depth=12, min_leaf=7, max_features=0.26",0.719,PRUNED
+40,RF,"max_depth=17, min_leaf=3, max_features=0.38",0.7621,COMPLETE
+41,RF,"max_depth=9, min_leaf=10, max_features=0.21",0.7515,COMPLETE
+42,RF,"max_depth=13, min_leaf=5, max_features=0.65",0.7657,COMPLETE
+43,RF,"max_depth=8, min_leaf=9, max_features=0.25",0.7654,COMPLETE
+44,RF,"max_depth=14, min_leaf=6, max_features=0.46",0.7882,COMPLETE
+45,RF,"max_depth=9, min_leaf=9, max_features=0.31",0.7741,COMPLETE
+46,RF,"max_depth=9, min_leaf=10, max_features=0.40",0.7762,COMPLETE
+47,RF,"max_depth=14, min_leaf=10, max_features=0.68",0.7575,COMPLETE
+48,RF,"max_depth=16, min_leaf=11, max_features=0.61",0.7158,PRUNED
+49,RF,"max_depth=12, min_leaf=4, max_features=0.74",0.7752,COMPLETE

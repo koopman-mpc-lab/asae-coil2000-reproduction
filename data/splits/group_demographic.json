@@ -1,0 +1,22 @@
+{
+  "protocol": "group_demographic",
+  "seed": 2026,
+  "group_columns": 43,
+  "partitions": {
+    "train": {
+      "n": 6881,
+      "n_pos": 411,
+      "positive_rate": 0.05972969045196919
+    },
+    "val": {
+      "n": 1464,
+      "n_pos": 87,
+      "positive_rate": 0.05942622950819672
+    },
+    "test": {
+      "n": 1477,
+      "n_pos": 88,
+      "positive_rate": 0.05958023019634394
+    }
+  }
+}

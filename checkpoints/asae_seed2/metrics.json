@@ -1,0 +1,12 @@
+{
+  "epoch": 148,
+  "val_auc": 0.8764341092565945,
+  "test_auc": 0.8640717520027865,
+  "test_f1": 0.6144578313253012,
+  "threshold": 0.412,
+  "trainable": 48311,
+  "frozen_backbone_est": 0,
+  "total_est": 48311,
+  "created": "2026-08-17T11:42:08",
+  "sha256": "44127d830522c9cfc5c6bedd3747975365ba9f2a8e9e64f19203f060f0869efa"
+}

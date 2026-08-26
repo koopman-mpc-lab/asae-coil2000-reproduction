@@ -1,0 +1,7 @@
+{
+  "record_id": "R08344",
+  "split": "test",
+  "seed": 2,
+  "y_true": 1,
+  "note": "positive policy-ownership record used for the attention-weight walkthrough"
+}

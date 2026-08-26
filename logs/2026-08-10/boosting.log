@@ -1,3 +1,0 @@
-2026-08-10 11:18:44 INFO  XGBoost 2.0.3 / LightGBM 4.1.0
-XGB  lr=0.041 depth=5 trees=420  val_auc=0.8216
-LGBM lr=0.037 depth=6 trees=380  val_auc=0.8169

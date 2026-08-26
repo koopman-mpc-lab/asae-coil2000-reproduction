@@ -7,8 +7,8 @@ monetary levels and stay numeric. Nominal categories and numeric
 standardisation statistics are fitted on the training partition only.
 
 Oversampling for this representation uses SMOTENC on the raw integer
-frame (categorical indices below), so synthetic rows carry observed
-category codes instead of fractional interpolations; one-hot expansion
+frame (categorical indices below), so added rows carry observed category
+codes instead of fractional interpolations; one-hot expansion
 is applied afterwards.
 """
 from __future__ import annotations

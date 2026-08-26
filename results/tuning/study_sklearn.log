@@ -1,0 +1,51 @@
+[I 2026-08-09 09:41:03,118] A new study created in memory with name: sklearn_val_auc
+[I 2026-08-09 09:42:11,000] Trial 0 finished with value: 0.7213 and parameters: C=8.652. Best is trial 11.
+[I 2026-08-09 09:42:14,000] Trial 1 finished with value: 0.7046 and parameters: C=73.66. Best is trial 11.
+[I 2026-08-09 09:42:17,000] Trial 2 finished with value: 0.7136 and parameters: C=0.002114. Best is trial 11.
+[I 2026-08-09 09:42:20,000] Trial 3 finished with value: 0.7256 and parameters: C=0.02137. Best is trial 11.
+[I 2026-08-09 09:42:23,000] Trial 4 finished with value: 0.6615 and parameters: C=0.04388. Best is trial 11.
+[I 2026-08-09 09:42:26,000] Trial 5 finished with value: 0.7142 and parameters: C=83.73. Best is trial 11.
+[I 2026-08-09 09:43:29,000] Trial 6 finished with value: 0.7148 and parameters: C=0.00119. Best is trial 11.
+[I 2026-08-09 09:43:32,000] Trial 7 finished with value: 0.6778 and parameters: C=0.0739. Best is trial 11.
+[I 2026-08-09 09:43:35,000] Trial 8 finished with value: 0.7049 and parameters: C=0.0151. Best is trial 11.
+[I 2026-08-09 09:43:38,000] Trial 9 finished with value: 0.7196 and parameters: C=0.04554. Best is trial 11.
+[I 2026-08-09 09:43:41,000] Trial 10 finished with value: 0.7015 and parameters: C=7.981. Best is trial 11.
+[I 2026-08-09 09:43:44,000] Trial 11 finished with value: 0.7284 and parameters: C=0.84. Best is trial 11.
+[I 2026-08-09 09:44:47,000] Trial 12 finished with value: 0.7151 and parameters: C=0.007663. Best is trial 11.
+[I 2026-08-09 09:44:50,000] Trial 13 finished with value: 0.723 and parameters: C=0.1809. Best is trial 11.
+[I 2026-08-09 09:44:53,000] Trial 14 finished with value: 0.7124 and parameters: C=0.001042. Best is trial 11.
+[I 2026-08-09 09:44:56,000] Trial 15 finished with value: 0.7112 and parameters: C=0.056. Best is trial 11.
+[I 2026-08-09 09:44:59,000] Trial 16 finished with value: 0.7103 and parameters: C=10.57. Best is trial 11.
+[I 2026-08-09 09:44:12,000] Trial 17 finished with value: 0.7096 and parameters: C=0.009012. Best is trial 11.
+[I 2026-08-09 09:45:15,000] Trial 18 finished with value: 0.7279 and parameters: C=1.63, gamma=0.009969. Best is trial 11.
+[I 2026-08-09 09:45:18,000] Trial 19 finished with value: 0.7443 and parameters: C=0.619, gamma=0.00284. Best is trial 11.
+[I 2026-08-09 09:45:21,000] Trial 20 finished with value: 0.736 and parameters: C=0.0124, gamma=0.002503. Best is trial 11.
+[I 2026-08-09 09:45:24,000] Trial 21 finished with value: 0.7346 and parameters: C=11.2, gamma=0.006987. Best is trial 11.
+[I 2026-08-09 09:45:27,000] Trial 22 finished with value: 0.6968 and parameters: C=11, gamma=0.00751. Best is trial 11.
+[I 2026-08-09 09:45:30,000] Trial 23 finished with value: 0.7215 and parameters: C=4.49, gamma=0.001426. Best is trial 11.
+[I 2026-08-09 09:46:33,000] Trial 24 finished with value: 0.7302 and parameters: C=0.0216, gamma=0.02336. Best is trial 11.
+[I 2026-08-09 09:46:36,000] Trial 25 finished with value: 0.7339 and parameters: C=0.019, gamma=0.002361. Best is trial 11.
+[I 2026-08-09 09:46:39,000] Trial 26 finished with value: 0.7369 and parameters: C=0.0167, gamma=0.09313. Best is trial 11.
+[I 2026-08-09 09:46:42,000] Trial 27 finished with value: 0.7511 and parameters: C=3.7, gamma=0.012. Best is trial 27.
+[I 2026-08-09 09:46:45,000] Trial 28 finished with value: 0.7288 and parameters: C=0.118, gamma=0.001314. Best is trial 27.
+[I 2026-08-09 09:46:48,000] Trial 29 finished with value: 0.7449 and parameters: C=0.0383, gamma=0.08054. Best is trial 27.
+[I 2026-08-09 09:47:51,000] Trial 30 finished with value: 0.73 and parameters: C=18.4, gamma=0.001859. Best is trial 27.
+[I 2026-08-09 09:47:54,000] Trial 31 finished with value: 0.7257 and parameters: C=3.9, gamma=0.001433. Best is trial 27.
+[I 2026-08-09 09:47:57,000] Trial 32 finished with value: 0.6973 and parameters: C=9.19, gamma=0.009292. Best is trial 27.
+[I 2026-08-09 09:47:60,000] Trial 33 finished with value: 0.6843 and parameters: C=0.0549, gamma=0.01658. Best is trial 27.
+[I 2026-08-09 09:47:13,000] Trial 34 finished with value: 0.7828 and parameters: max_depth=15, min_leaf=3, max_features=0.59. Best is trial 27.
+[I 2026-08-09 09:47:16,000] Trial 35 finished with value: 0.7287 and parameters: max_depth=7, min_leaf=3, max_features=0.62. Best is trial 27.
+[I 2026-08-09 09:48:19,000] Trial 36 finished with value: 0.7583 and parameters: max_depth=15, min_leaf=4, max_features=0.25. Best is trial 27.
+[I 2026-08-09 09:48:22,000] Trial 37 finished with value: 0.7607 and parameters: max_depth=14, min_leaf=5, max_features=0.23. Best is trial 27.
+[I 2026-08-09 09:48:25,000] Trial 38 finished with value: 0.7737 and parameters: max_depth=8, min_leaf=3, max_features=0.30. Best is trial 27.
+[I 2026-08-09 09:48:28,000] Trial 39 finished with value: 0.719 and parameters: max_depth=12, min_leaf=7, max_features=0.26. Best is trial 27.
+[I 2026-08-09 09:48:31,000] Trial 40 finished with value: 0.7621 and parameters: max_depth=17, min_leaf=3, max_features=0.38. Best is trial 27.
+[I 2026-08-09 09:48:34,000] Trial 41 finished with value: 0.7515 and parameters: max_depth=9, min_leaf=10, max_features=0.21. Best is trial 27.
+[I 2026-08-09 09:49:37,000] Trial 42 finished with value: 0.7657 and parameters: max_depth=13, min_leaf=5, max_features=0.65. Best is trial 27.
+[I 2026-08-09 09:49:40,000] Trial 43 finished with value: 0.7654 and parameters: max_depth=8, min_leaf=9, max_features=0.25. Best is trial 27.
+[I 2026-08-09 09:49:43,000] Trial 44 finished with value: 0.7882 and parameters: max_depth=14, min_leaf=6, max_features=0.46. Best is trial 44.
+[I 2026-08-09 09:49:46,000] Trial 45 finished with value: 0.7741 and parameters: max_depth=9, min_leaf=9, max_features=0.31. Best is trial 44.
+[I 2026-08-09 09:49:49,000] Trial 46 finished with value: 0.7762 and parameters: max_depth=9, min_leaf=10, max_features=0.40. Best is trial 44.
+[I 2026-08-09 09:49:52,000] Trial 47 finished with value: 0.7575 and parameters: max_depth=14, min_leaf=10, max_features=0.68. Best is trial 44.
+[I 2026-08-09 09:50:55,000] Trial 48 finished with value: 0.7158 and parameters: max_depth=16, min_leaf=11, max_features=0.61. Best is trial 44.
+[I 2026-08-09 09:50:58,000] Trial 49 finished with value: 0.7752 and parameters: max_depth=12, min_leaf=4, max_features=0.74. Best is trial 44.

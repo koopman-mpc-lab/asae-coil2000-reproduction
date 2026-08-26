@@ -5,10 +5,5 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-checkpoints/
-data/aux/
-data/features/records/
-data/cases/
 results/predictions/eval_forward_test.csv
-figures/
-scripts/plot_from_results.py
+data/aux/

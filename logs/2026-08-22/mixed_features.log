@@ -1,6 +1,0 @@
-2026-08-22 06:58:41 INFO  build type-consistent cache from official extracts
-2026-08-22 06:58:44 INFO  nominal per UCI dictionary: MOSTYPE (attr 1), MOSHOOFD (attr 5)
-2026-08-22 06:58:44 INFO  train-partition categories: MOSTYPE=40  MOSHOOFD=10
-2026-08-22 06:58:45 INFO  numeric block 83 cols standardised on train stats
-2026-08-22 06:58:47 INFO  wrote data/features/x_mixed.npz  x=(9822, 133)
-2026-08-22 06:58:47 INFO  SMOTENC(cat=[0,4], ratio=1:3, k=5) applied inside each training run

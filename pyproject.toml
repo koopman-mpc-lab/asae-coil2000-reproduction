@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "asae-coil2000"
 version = "0.2.0"
-description = "ASAE training and evaluation code for COIL 2000 purchase classification"
+description = "ASAE training and evaluation code for COIL 2000 policy-ownership classification"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -16,6 +16,12 @@ dependencies = [
   "matplotlib>=3.7",
   "pyyaml>=6.0",
   "scipy>=1.10",
+  "imbalanced-learn>=0.11",
+  "optuna>=3.5",
+  "xgboost>=2.0",
+  "lightgbm>=4.1",
+  "pytorch-tabnet>=4.1",
+  "joblib>=1.3",
 ]
 
 [tool.setuptools.packages.find]

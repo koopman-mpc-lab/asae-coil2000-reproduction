@@ -1,0 +1,22 @@
+{
+  "protocol": "official",
+  "seed": 2026,
+  "group_columns": null,
+  "partitions": {
+    "train": {
+      "n": 4657,
+      "n_pos": 278,
+      "positive_rate": 0.05969508267124758
+    },
+    "val": {
+      "n": 1165,
+      "n_pos": 70,
+      "positive_rate": 0.060085836909871244
+    },
+    "test": {
+      "n": 4000,
+      "n_pos": 238,
+      "positive_rate": 0.0595
+    }
+  }
+}

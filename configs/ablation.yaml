@@ -5,19 +5,21 @@ variants:
     use_residual: true
     use_dropout: true
     use_ent: true
+    no_recon: false
   no_entropy:
     use_ent: false
   no_attention:
     use_attention: false
   no_recon:
-    use_decoder: true
+    no_recon: true
+    use_decoder: false
     use_ent: true
-    # decoder detached in the released no-recon run
   no_residual:
     use_residual: false
   no_dropout:
     use_dropout: false
   encoder_only:
+    no_recon: true
     use_decoder: false
     use_ent: false
 latent_dims: [8, 16, 32, 48, 64]

@@ -1,0 +1,22 @@
+{
+  "protocol": "group_exact",
+  "seed": 2026,
+  "group_columns": 85,
+  "partitions": {
+    "train": {
+      "n": 6876,
+      "n_pos": 410,
+      "positive_rate": 0.05962769051774287
+    },
+    "val": {
+      "n": 1474,
+      "n_pos": 88,
+      "positive_rate": 0.05970149253731343
+    },
+    "test": {
+      "n": 1472,
+      "n_pos": 88,
+      "positive_rate": 0.059782608695652176
+    }
+  }
+}
